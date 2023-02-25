@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8547e34b-c330-4407-acbf-f52e63e898a0" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/../CalcularIMC/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../CalcularIMC/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/build.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/build.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/build/classes/ContaBanco/pkg6/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/build/classes/ContaBanco/pkg6/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/build/classes/ContaBanco/pkg6/TestaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/build/classes/ContaBanco/pkg6/TestaConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/nbproject/build-impl.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/nbproject/build-impl.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/nbproject/genfiles.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/nbproject/genfiles.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/nbproject/project.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/nbproject/project.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/nbproject/project.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/nbproject/project.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/src/ContaBanco/pkg6/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/src/ContaBanco/pkg6/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Conta/src/ContaBanco/pkg6/TestaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Conta/src/ContaBanco/pkg6/TestaConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/testaconta/CartãoDeCredito.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/testaconta/CartãoDeCredito.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/testaconta/Cliente.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/testaconta/Cliente.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/testaconta/Conta.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/testaconta/Conta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/testaconta/TestaConta.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/testaconta/TestaConta.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/nbproject/private/private.xml" beforeDir="false" afterPath="$PROJECT_DIR$/nbproject/private/private.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaconta/CartãoDeCredito.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testaconta/CartãoDeCredito.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/testaconta/TestaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/testaconta/TestaConta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Kotlin/Aula2/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Kotlin/Aula2/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectId" id="2GKqm3tFahXJHfcPEoEiQj1Utwf" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "last_opened_file_path": "C:/Users/nicol/Desktop/Trabalhos_E_Programas/UniProj/Java/TestaConta"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8547e34b-c330-4407-acbf-f52e63e898a0" name="Changes" comment="" />
+      <created>1666147779034</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1666147779034</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
