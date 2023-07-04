@@ -12,6 +12,7 @@ public class Lutador {
     private int vitorias; 
     private int derrotas; 
     private int  empates;
+    private int pontos;
     
     //Métodos Públicos
     public void apresentar(){
@@ -40,6 +41,9 @@ public class Lutador {
     }
     public void empatarLuta(){
         this.setEmpates(this.getEmpates() + 1);
+    }
+    public void ganharPontos(){
+        this.setPontos(this.getPontos() + 1);
     }
     
     //Métodos Especiais
@@ -138,6 +142,15 @@ public class Lutador {
     public void setEmpates(int empates) {
         this.empates = empates;
     }
+
+    public int getPontos() {
+        return pontos;
+    }
+
+    public void setPontos(int pontos) {
+        this.pontos = pontos;
+    }
+    
     
     
 }

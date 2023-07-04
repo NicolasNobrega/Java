@@ -34,11 +34,30 @@ public class Luta {
             
             Random aleatorio = new Random();
             int vencedor = aleatorio.nextInt(3);
+            
+            if (getDesafiado().getAltura() > getDesafiante().getAltura()){
+                
+                this.getDesafiado().ganharPontos();
+                
+            }else{
+                this.getDesafiante().ganharPontos();
+            }
+            
             switch(vencedor){
                 case 0:
-                        System.out.println("Empate!!!");
-                        this.getDesafiado().empatarLuta();
-                        this.getDesafiante().empatarLuta();
+                        System.out.println("Empate!!! \n Vamos Contar os Pontos");
+                        for (int i = 0 ; i > 3 ; i++){
+                            System.out.print(".");
+                        }
+                        if (getDesafiado().getPontos() > getDesafiante().getPontos()){
+                            this.getDesafiado().ganharLuta();
+                            this.getDesafiante().perderLuta();
+                            System.out.println("Juizes Julgaram e o vencedor é " + this.getDesafiado().getNome());
+                        }else {
+                            System.out.println("Juizes Julgaram e o vencedor é " + this.getDesafiante().getNome());
+                            this.getDesafiante().ganharLuta();
+                            this.getDesafiado().perderLuta();
+                        }
                     break;
                 case 1:
                         System.out.println("Vitoria do " + this.getDesafiado().getNome());
