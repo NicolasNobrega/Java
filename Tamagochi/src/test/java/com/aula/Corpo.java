@@ -22,9 +22,9 @@ public class Corpo {
 	public void status() {
 		System.out.println("Nome: " + this.getNome());
 		System.out.println("Vida: " + this.getVida());
+		System.out.println("Anos: " + this.getAnos());
 		System.out.println("Felicidade: " + this.getFelicidade());
 		System.out.println("Dinheiro: " + this.getDinheiro() + "D");
-		System.out.println("Escolha a comida \n Comida  preco " + "\n1 para Frango: 5d \n2 para Coxinha: 2");
 	}
 
 	public void comer(int comida) {
@@ -54,17 +54,17 @@ public class Corpo {
 	public void jogar() {
 		this.setDinheiro(getDinheiro() + 5);
 		this.setFelicidade(getFelicidade() + 1);
-		System.out.println("Jogando Bola");
+		System.out.println("Jogando Bola \n \n ============================");
 	}
 
 	public void darCarinho() {
 		this.setFelicidade(getFelicidade() + 5);
 	}
 	
-	public void passarTempo() {
+	public void dormir() {
 		this.setAnos(getAnos()+1);
 		if(this.getAnos() == 5) {
-			this.setVivo(true);
+			this.setVivo(false);
 		}
 	}
 
