@@ -6,7 +6,7 @@ public class Corpo {
 
 	private String nome;
 	private int anos, comida, vida, felicidade, dinheiro;
-	private boolean morto;
+	private boolean vivo;
 	
 	//constructor
 	
@@ -14,6 +14,7 @@ public class Corpo {
 		this.setNome(nome);
 		this.setVida(5);
 		this.setFelicidade(5);
+		this.setVivo(true);
 	}
 
 	// Metodos
@@ -60,10 +61,10 @@ public class Corpo {
 		this.setFelicidade(getFelicidade() + 5);
 	}
 	
-	private void passarTempo() {
+	public void passarTempo() {
 		this.setAnos(getAnos()+1);
-		if(this.getAnos() > 5) {
-			this.setMorto(true);
+		if(this.getAnos() == 5) {
+			this.setVivo(true);
 		}
 	}
 
@@ -117,12 +118,12 @@ public class Corpo {
 		this.anos = anos;
 	}
 
-	public boolean isMorto() {
-		return morto;
+	public boolean isVivo() {
+		return vivo;
 	}
 
-	public void setMorto(boolean morto) {
-		this.morto = morto;
+	public void setVivo(boolean vivo) {
+		this.vivo = vivo;
 	}
 
 }

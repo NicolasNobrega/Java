@@ -6,10 +6,11 @@ public class Tamagochi {
 		
         Corpo tamagochi = new Corpo("Roberto");
         
-        while (tamagochi.isMorto()) {
+        while (tamagochi.isVivo()) {
         
         	tamagochi.status();
-        	
+        
+        	tamagochi.passarTempo();
         }
 
 	}
