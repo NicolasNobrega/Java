@@ -59,10 +59,13 @@ public class Corpo {
 
 	public void darCarinho() {
 		this.setFelicidade(getFelicidade() + 5);
+		System.out.println("Fazendo Carinho \n \n ============================");
 	}
 	
 	public void dormir() {
 		this.setAnos(getAnos()+1);
+
+		System.out.println("Dormiu Por um ano :O \n \n ============================");
 		if(this.getAnos() == 5) {
 			this.setVivo(false);
 		}

@@ -58,7 +58,7 @@ public class Tamagochi {
                     System.out.println("Opção inválida.");
                     break;
             }
-        } while (option != 4);
+        } while (option != 6);
         
 
 
