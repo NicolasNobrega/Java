@@ -25,6 +25,7 @@ public class Corpo {
 		System.out.println("Anos: " + this.getAnos());
 		System.out.println("Felicidade: " + this.getFelicidade());
 		System.out.println("Dinheiro: " + this.getDinheiro() + "D");
+		morto();
 	}
 
 	public void comer(int comida) {
@@ -67,8 +68,12 @@ public class Corpo {
 	
 	public void dormir() {
 		this.setAnos(getAnos()+1);
+		this.setFelicidade(1);
 
 		System.out.println("============================ \n Dormiu Por um ano :O \n ============================ ");
+	}
+	
+	public void morto() {
 		if(this.getAnos() == 5) {
 			System.out.println("Ficou velhinho e não acordou mais :C");
 			this.setVivo(false);
