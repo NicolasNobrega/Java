@@ -68,7 +68,7 @@ public class Corpo {
 	
 	public void dormir() {
 		this.setAnos(getAnos()+1);
-		this.setFelicidade(1);
+		this.setFelicidade(getFelicidade()- 4);
 
 		System.out.println("============================ \n Dormiu Por um ano :O \n ============================ ");
 	}
@@ -76,6 +76,9 @@ public class Corpo {
 	public void morto() {
 		if(this.getAnos() == 5) {
 			System.out.println("Ficou velhinho e não acordou mais :C");
+			this.setVivo(false);
+		}if (getFelicidade() == 0) {
+			System.out.println("Morreu de Tristeza T-T");
 			this.setVivo(false);
 		}
 	}
