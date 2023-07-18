@@ -47,6 +47,9 @@ public class Corpo {
 				System.out.println("Hmm Coxinha");
 
 				break;
+			case 3:
+				this.setDinheiro(getDinheiro() -10);
+				System.out.println("Hmm Bife");
 			}
 		}
 	}
@@ -54,19 +57,20 @@ public class Corpo {
 	public void jogar() {
 		this.setDinheiro(getDinheiro() + 5);
 		this.setFelicidade(getFelicidade() + 1);
-		System.out.println("Jogando Bola \n \n ============================");
+		System.out.println(" ======================== \n Jogando Bola \n ============================");
 	}
 
 	public void darCarinho() {
 		this.setFelicidade(getFelicidade() + 5);
-		System.out.println("Fazendo Carinho \n \n ============================");
+		System.out.println(" ============================ \n Fazendo Carinho \n ============================");
 	}
 	
 	public void dormir() {
 		this.setAnos(getAnos()+1);
 
-		System.out.println("Dormiu Por um ano :O \n \n ============================");
+		System.out.println("============================ \n Dormiu Por um ano :O \n ============================ ");
 		if(this.getAnos() == 5) {
+			System.out.println("Ficou velhinho e não acordou mais :C");
 			this.setVivo(false);
 		}
 	}

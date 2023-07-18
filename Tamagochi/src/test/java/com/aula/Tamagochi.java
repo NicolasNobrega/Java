@@ -17,6 +17,7 @@ public class Tamagochi {
         int option;
         
         do {
+        	
             System.out.println("Escolha uma acao:");
             System.out.println("1 - Alimentar");
             System.out.println("2 - Brincar");
@@ -25,7 +26,11 @@ public class Tamagochi {
             System.out.println("5 - Dormir");
             System.out.println("6 - Sair");
             option = scanner.nextInt();
-
+            
+            if (tamagotchi.isVivo()== false) {
+            	System.out.println("Tamagotchi morreu :C F");
+            	option = 6;
+            }
             switch (option) {
                 case 1:
                 	
