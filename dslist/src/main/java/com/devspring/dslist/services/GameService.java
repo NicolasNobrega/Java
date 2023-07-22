@@ -1,6 +1,7 @@
 package com.devspring.dslist.services;
 
 import java.util.List;
+import java.util.NoSuchElementException;
 
 import com.devspring.dslist.dto.GameDTO;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,7 +24,7 @@ public class GameService {
             Game result = gameRepository.findById(id).get();
             return new GameDTO(result);
         }
-        catch(NullPointerException e) //CAPTURA DA POSSÍVEL exceção.
+        catch(NoSuchElementException e ) //CAPTURA DA POSSÍVEL exceção.
         {
             //TRATAMENTO DA exceção
             System.out.println("Id Não existe");
