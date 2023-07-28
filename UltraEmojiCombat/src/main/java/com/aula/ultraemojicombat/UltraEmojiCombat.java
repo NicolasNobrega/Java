@@ -26,7 +26,7 @@ public class UltraEmojiCombat {
                 UEC01.lutar();
                 
                 System.out.println("Fim Das Lutas");
-                
+                System.out.print("Comece outra Luta: ");
                 l[1].status();
                 
     }
