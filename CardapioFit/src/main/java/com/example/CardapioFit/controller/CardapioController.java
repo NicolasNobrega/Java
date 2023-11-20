@@ -10,6 +10,7 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("cardapio")
 public class CardapioController {
     @Autowired
@@ -22,7 +23,7 @@ public class CardapioController {
         return;
 
     }
-    @CrossOrigin(origins = "*", allowedHeaders = "*")
+
     @GetMapping
     public List<CardapioResponseDTO> getAll() {
         List<CardapioResponseDTO> cardapioList = repository.findAll().stream().map(CardapioResponseDTO::new).toList();

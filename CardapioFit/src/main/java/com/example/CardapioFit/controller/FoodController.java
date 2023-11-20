@@ -5,11 +5,13 @@ import com.example.CardapioFit.food.FoodRepository;
 import com.example.CardapioFit.food.FoodRequestDTO;
 import com.example.CardapioFit.food.FoodResponseDTO;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
 @RestController
+@CrossOrigin(origins = "*", allowedHeaders = "*")
 @RequestMapping("food")
 public class FoodController {
     @Autowired
@@ -23,11 +25,18 @@ public class FoodController {
         return;
     }
 
-    @CrossOrigin(origins = "*", allowedHeaders = "*")
+
     @GetMapping
     public List<FoodResponseDTO> getAll(){
 
         List<FoodResponseDTO> foodList = repository.findAll().stream().map(FoodResponseDTO::new).toList();
         return foodList;
+    }
+
+
+    @DeleteMapping("{id}")
+    public ResponseEntity<Void> deleteFood(@PathVariable Long id){
+        repository.deleteById(id);
+        return ResponseEntity.noContent().build();
     }
 }
