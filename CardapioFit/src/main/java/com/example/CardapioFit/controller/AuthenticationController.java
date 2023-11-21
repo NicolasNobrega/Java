@@ -20,7 +20,7 @@ public class AuthenticationController {
     private AuthenticationManager authenticationManager;
     @Autowired
     private LoginRepository repository;
-    
+
     @CrossOrigin(origins = "*", allowedHeaders = "*")
     @PostMapping("/login")
     public ResponseEntity login(@RequestBody @Valid AuthenticationDTO data){
